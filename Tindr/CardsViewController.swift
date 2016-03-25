@@ -17,9 +17,11 @@ class CardsViewController: UIViewController {
     @IBAction func onPanImage(sender: UIPanGestureRecognizer) {
         let translation = sender.translationInView(view)
         let point = sender.locationInView(self.view)
-        profileImage.center = CGPoint(x: initialCenter.x + translation.x, y: initialCenter.y)
+        initialCenter = profileImage.center
         
-        initialCenter.x += profileImage.frame.origin.x
+        profileImage.center = CGPoint(x: initialCenter.x + (translation.x/5), y: initialCenter.y)
+        
+//        initialCenter.x = profileImage.frame.origin.x
     }
     
     override func viewDidLoad() {
