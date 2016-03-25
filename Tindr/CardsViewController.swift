@@ -10,9 +10,23 @@ import UIKit
 
 class CardsViewController: UIViewController {
 
+    @IBOutlet weak var profileImage: UIImageView!
+    
+    var initialCenter: CGPoint!
+    
+    @IBAction func onPanImage(sender: UIPanGestureRecognizer) {
+        let translation = sender.translationInView(view)
+        let point = sender.locationInView(self.view)
+        profileImage.center = CGPoint(x: initialCenter.x + translation.x, y: initialCenter.y)
+        
+        initialCenter.x += profileImage.frame.origin.x
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

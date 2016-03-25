@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CEF4B7E5B3542E4E026B31DD838BA37D18B2C38A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CEF4B7E5B3542E4E026B31DD838BA37D18B2C38A" : 0,
+    "CED20F73FDAF566013D83E22583693C6F0E9761C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "030094CA-272A-4A9C-80B4-74E685D484F4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CEF4B7E5B3542E4E026B31DD838BA37D18B2C38A" : "Tindr\/",
+    "CED20F73FDAF566013D83E22583693C6F0E9761C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Tindr",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Tindr.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/r3dcrosse\/Instagramer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CED20F73FDAF566013D83E22583693C6F0E9761C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/r3dcrosse\/Tindr.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CEF4B7E5B3542E4E026B31DD838BA37D18B2C38A"
+    }
+  ]
+}
